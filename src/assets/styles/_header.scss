@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-around;
     background: $color_pink;
+    padding: 40px;
 }
 
 .header__menu{
@@ -20,7 +21,7 @@
     text-decoration: none;
     color: $color_black;
     font-size: 14px;
-    padding: 40px;
+    margin-right: 40px;
 }
 
 .header__menu a:first-child{
