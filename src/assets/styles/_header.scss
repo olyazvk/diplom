@@ -1,0 +1,38 @@
+@import './var';
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: $color_pink;
+    padding: 40px;
+}
+
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    max-width: 653px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu a{
+    text-decoration: none;
+    color: $color_black;
+    font-size: 14px;
+    margin-right: 40px;
+}
+
+.header__menu a:first-child{
+    color:  $bg_color;
+}
+
+.header__button button{
+    color:$color_white;
+    font-size: 16px;
+    padding: 14px 50px;
+    background: $bg_color;
+    border: 0;
+    border-radius: 5px;
+}
