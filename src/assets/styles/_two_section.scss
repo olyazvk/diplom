@@ -1,0 +1,474 @@
+.two_section{
+    background:$color_bggray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.two_section__car{
+    width: 250px;
+    height: 200px;
+    background: $color_white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.two_section__car__title{
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+color: $color_black;
+}
+.two_section__car__subtitle{
+    width: 198px;
+height: 35px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+color: #000000;
+max-width: 217px;
+opacity: 0.6;
+}
+.two_section__wok{
+    width: 250px;
+    height: 200px;
+    background: $color_white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.two_section__wok__title{
+    width: 147px;
+height: 28px;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+color: $color_black;
+}
+.two_section__wok__subtitle{
+    width: 198px;
+height: 35px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+color:$color_black;
+opacity: 0.6;
+}
+.two_section__cash_back{
+    width: 250px;
+    height: 200px;
+    background:$color_white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.two_section__cash_back__title{
+    
+width: 200px;
+height: 28px;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+color: $color_black;
+}
+.two_section__cash_back__subtitle{
+    width: 198px;
+    height: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: $color_black;
+    max-width: 217px;
+    opacity: 0.6;
+}
+
+.two_section__fastfood{
+    width: 250px;
+    height: 200px;
+    background: $color_white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two_section__fastfood__logo{
+    width: 54px;
+    height: 54px;
+}
+.two_section__fastfood__title{
+    width: 115px;
+height: 28px;
+left: 1186px;
+top: 1061px;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+color: $color_black;
+}
+.two_section__fastfood__subtitle{
+    width: 198px;
+height: 35px;
+left: 1145px;
+top: 1099px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+color: $color_black;
+opacity: 0.6;
+}
+.sugar_section{
+    height: 545px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: $color_pink;
+}
+.sugar_section__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.sugar_section__text__title{
+    width: 340px;
+    height: 59px;
+    font-style: normal;
+font-weight: 600;
+font-size: 44.2px;
+line-height: 49px;
+
+color: $color_black;
+}
+.sugar_section__text__subtitle{
+width: 442px;
+height: 59px;
+margin-top: 16px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: $color_black;
+opacity: 0.6;
+}
+.sugar_section__text__btn{
+    width: 165px;
+    height: 50px;
+    margin-top: 20px;
+    background: #D64374;
+    border-radius: 5px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+border: 0;
+color: $color_white;
+}
+.production_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.production_section__title{
+    margin-bottom: 40px;
+    margin-top: 130px;
+    
+}
+.production_section__title__text{
+    width: 248px;
+height: 61px;
+font-style: normal;
+font-weight: 600;
+font-size: 44.2px;
+line-height: 61px;
+color: $color_black;
+}
+
+.production_section__menu__ICE_CREAM{
+    text-decoration: none;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: $color_black;
+}
+.production_section__menu__CAYENNE_CHOCOLATE{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: $color_black;
+opacity: 0.6;
+text-decoration: none;
+margin-left: 40px;
+}
+.production_section__menu__CAKE_BATTER{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: $color_black;
+opacity: 0.6;
+text-decoration: none;
+margin-left: 40px;
+}
+.production_section__menu__CANDY_CANE{
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color:$color_black;
+opacity: 0.6;
+text-decoration: none;
+margin-left: 40px;
+}
+.production_section__menu__PLATTERS{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+color: $color_black;
+opacity: 0.6;
+text-decoration: none;
+margin-left: 40px;
+}
+.production_section__menu__DESSERT{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+color: $color_black;
+opacity: 0.6;
+text-decoration: none;
+margin-left: 40px;
+}
+/* 1 */
+.range_section__Brown_bread{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.range_section__Brown_bread__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    margin-left: 100px;  
+}
+.range_section__Brown_bread__text__title{
+    font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 36px;
+color: $color_black;
+
+}
+.range_section__Brown_bread__text__subtitle{
+    width: 422px;
+height: 67px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color:$color_black;
+opacity: 0.7;
+}
+.range_section__Brown_bread__price{
+    display: flex;
+    flex-direction: row;
+
+}
+.range_section__Brown_bread__price1{
+    width: 71px;
+height: 27px;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 36px;
+color: $color_black;
+}
+.range_section__Brown_bread__price2{
+    width: 58px;
+height: 27px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-decoration-line: line-through;
+color: $color_black;
+}
+.range_section__Brown_bread__btn{
+ width: 165px;
+ height: 49px;
+ background: $color_pink_two;
+border-radius: 5px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: $color_white;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+/* 2 */
+.range_section__Cayenne_chocolate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.range_section__Cayenne_chocolate__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+    margin-left: 100px;  
+}
+.range_section__Cayenne_chocolate__text__title{
+    font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 36px;
+}
+.range_section__Cayenne_chocolate__text__subtitle{
+    width: 422px;
+    height: 67px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color_black;
+    opacity: 0.7;
+    text-align: right;
+}
+.range_section__Cayenne_chocolate_price{
+    display: flex;
+    flex-direction: row;
+}
+.range_section__Cayenne_chocolate__price1{
+    width: 71px;
+    height: 27px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: $color_black;
+}
+.range_section__Cayenne_chocolate__price2{
+    width: 58px;
+height: 27px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-decoration-line: line-through;
+color:$color_black;
+}
+.range_section__Cayenne_chocolate__btn{
+    width: 165px;
+ height: 49px;
+ background: $color_pink_two;
+border-radius: 5px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color:$color_white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.range_section__Cayenne_chocolate__logo{
+    margin-left: 80px;
+}
+/* 3 */
+.range_section__Sweet_corn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.range_section__Sweet_corn__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    margin-left: 100px; 
+}
+.range_section__Sweet_corn__text__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    color: $color_black;
+}
+.range_section__Sweet_corn__text__subtitle{
+    width: 422px;
+height: 67px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: $color_black;
+}
+.range_section__Sweet_corn__price{
+    display: flex;
+    flex-direction: row;
+}
+.range_section__Sweet_corn__price1{
+    width: 71px;
+height: 27px;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 36px;
+color: $color_black;
+}
+.range_section__Sweet_corn__price2{
+    width: 58px;
+height: 27px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-decoration-line: line-through;
+color:$color_black;
+}
+.range_section__Sweet_corn__btn{
+ width: 165px;
+ height: 49px;
+ background: $color_pink_two;
+border-radius: 5px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: $color_white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
