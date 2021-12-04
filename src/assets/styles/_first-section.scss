@@ -1,0 +1,77 @@
+@import './var';
+.first__section{
+    display: flex;
+    flex-direction: row;
+    background:$color_pink;
+    justify-content: space-around;
+    padding-bottom: 213px;
+    padding-top: 285px;
+    margin-top: -10px;
+    
+}
+
+.first__section__button{
+    color: $color_white;
+    font-size: 16px;
+    padding: 14px 50px;
+    background: $bg_color;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+    
+}
+
+.first__section__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 670px;
+    width: 100%;
+}
+
+.first__section__text__item{
+    color: $color_black;
+    font-size:14px ;
+}
+
+
+
+.first__section__text__title{
+    color: $color_black;
+    font-size: 57px ;
+}
+
+.first__section__text__title span{
+    color: $color_pink_two;
+}
+
+
+.first__section__text__subtitle{
+    color:$color_black;
+    font-size: 18px ;
+    max-width: 523px;
+}
+
+.first__section__img{
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+}
+.first__section__img img{
+    position: absolute;
+}
+
+.first__section__img__one{
+    bottom: -70px;
+    right: 0;
+}
+.first__section__img__two{
+    bottom: 0;
+    right: -105px; 
+}
+
+.first__section__img__three{
+    bottom: -84px;
+    right: -160px;
+}
